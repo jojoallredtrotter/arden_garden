@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Juice 16 oz:</strong>
+  <%= @inventory.juice_16_oz %>
+</p>
+
+<p>
+  <strong>Grand slam:</strong>
+  <%= @inventory.grand_slam %>
+</p>
+
+<p>
+  <strong>Apple juice gallon:</strong>
+  <%= @inventory.apple_juice_gallon %>
+</p>
+
+<p>
+  <strong>Lemon juice:</strong>
+  <%= @inventory.lemon_juice %>
+</p>
+
+<p>
+  <strong>Detox gallon:</strong>
+  <%= @inventory.detox_gallon %>
+</p>
+
+<p>
+  <strong>Powerfule:</strong>
+  <%= @inventory.powerfule %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @inventory.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_inventory_path(@inventory) %> |
+<%= link_to 'Back', inventories_path %>
